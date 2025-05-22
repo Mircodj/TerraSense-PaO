@@ -1,0 +1,210 @@
+QCheckBox::indicator {
+    width: 18px;
+    height: 18px;
+}
+
+QCheckBox::indicator:checked {
+    image: url(:/img/resources/checkBoxChecked.png);
+}
+
+QCheckBox::indicator:unchecked {
+    image: url(:/img/resources/checkBoxUnchecked.png);
+}
+
+QCheckBox::indicator:checked:hover {
+    image: url(:/img/resources/checkBoxChecked.png);
+}
+
+QCheckBox::indicator:unchecked:hover {
+    image: url(:/img/resources/checkBoxUnchecked.png);
+}
+
+QCheckBox::indicator:checked:pressed {
+    image: url(:/img/resources/checkBoxChecked.png);
+}
+
+QCheckBox::indicator:unchecked:pressed {
+    image: url(:/img/resources/checkBoxUnchecked.png);
+}
+
+QMainWindow {
+    background: #EDEEEF;
+}
+
+QLabel#Title {
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+}
+
+QLabel#MInfoLabelItalic {
+    font: italic;
+    font-family: Gilroy-Medium;
+    font-size: 16px;
+    color: #9EA3A9;
+}
+
+QLabel#MInfoLabel {
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    color: #9EA3A9;
+}
+
+QLabel#MTitleLabel {
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    color: black;
+}
+
+QLabel#SensorTitle {
+    font-family: Gilroy-Medium;
+    font-size: 16px;
+    color: #000000;
+}
+
+QLineEdit {
+    font-family: Gilroy-Medium;
+    font-size: 16px;
+    color: black;
+    /* placeholder-text-color: #9EA3A9; */
+}
+
+QLineEdit#EditSensor {
+    font-family: Gilroy-Medium;
+    font-size: 16px;
+    color: black;
+    /* placeholder-text-color: #9EA3A9; */
+    border: 1px solid #E1E1E1;
+    border-radius: 6px;
+    padding-left: 5px;
+    background: white;
+}
+
+QPushButton#MButton {
+    color: black;
+    background-color: white;
+    border-radius: 6px;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+}
+
+QPushButton#MButton:disabled {
+    background-color: #F9F9F9;
+    color: #E1E1E1;
+}
+
+QPushButton#MButton:hover {
+    background-color: #F9F9F9;
+}
+
+QPushButton#MButtonAccent {
+    border-radius: 6px;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    background-color: rgba(51, 0, 255, 1);
+    color: #ffffff;
+}
+
+QPushButton#MButtonAccent:hover {
+    background-color: #2C03CE;
+}
+
+QPushButton#MButtonOnW {
+    border: 1px solid #C9CCCF;
+    color: black;
+    background-color: white;
+    border-radius: 6px;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+}
+
+QPushButton#MButtonOnW:hover {
+    background-color: #F9F9F9;
+}
+
+QScrollBar {
+    border: none;
+    background: #FFFFFF;
+    width: 10px;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical {
+    background: #C9CCCF;
+    border-radius: 5px;
+}
+
+QScrollBar::add-line:vertical {
+    height: 0px;
+    border-radius: 5px;
+}
+
+QScrollBar::sub-line:vertical {
+    height: 0px;
+    border-radius: 5px;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    height: 0px;
+    border-radius: 5px;
+}
+
+QScrollArea {
+    background-color: #edeeef;
+}
+
+QFrame#Pannello {
+    background-color: white;
+    border-radius: 6px;
+}
+
+QComboBox {
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    color: black;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid #E1E1E1;
+    padding-left: 10px;
+}
+
+QComboBox::down-arrow {
+    image: url(:/img/resources/ComboBoxArrow.svg);
+    width: 14px;
+    height: 14px;
+}
+
+QComboBox::drop-down:button{
+    background-color: rgba(0, 0, 0, 0);
+    width: 36px;
+}
+
+QListView {
+    border: 1px solid #E1E1E1;
+    background: white;
+    margin: 0px;
+    color: #000000;
+}
+
+QComboBox {
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    color: black;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid #E1E1E1;
+    padding-left: 10px;
+}
+
+QComboBox::down-arrow {
+    image: url(:/img/resources/ComboBoxArrow.svg);
+    width: 14px;
+    height: 14px;
+}
+
+QChartView {
+    background-color: white;
+}
+
+QChart {
+    background-color: white;
+}

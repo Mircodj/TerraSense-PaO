@@ -1,0 +1,69 @@
+Feedback Progetto di Programmazione ad Oggetti
+Studente: Borella Mirco
+Valutazione del progetto: Ottimo
+
+
+Vincoli obbligatori
++ Soddisfatti
+
+
+Orientamento ad oggetti
++ Incapsulamento
++ Modularità (modello logico e la GUI sono separati)
++ Estensibilità ed evolvibilità, polimorfismo
++ Efficienza e robustezza
+- Il pattern Visitor non è stato implementato correttamente: normalmente
+  per una gerarchia vi è solo un'interfaccia "Visitor" (o due, se si vuole
+  mantenere anche un "CostVisitor" per sfruttare la const correctness), e
+  che viene implementata dai visitor concreti. Quest'interfaccia dovrebbe
+  contenere un singolo metodo per ciascuna delle classi concrete, in questo caso:
+  class IVisitor {
+    public:
+      virtual void visit(SoilMoistureSensor*) = 0;
+      virtual void visit(TemperatureSensor*) = 0;
+      virtual void visit(WaterLevelSensor*) = 0;
+  }
+  Le classi dei sensori, di conseguenza, dovrebbero esporre un singolo metodo
+  accept(IVisitor*).
+  Utilizzando invece visitor diversi si obbligano le classi dei sensori
+  ad esporre un metodo accept different per ogni visitor, potrando a un aumento
+  del numero dei metodi e introducendo un accoppiamento eccessivo.
+  Il dubbio probabilmente è nato dal fatto che SensorVisirotSL ha bisogno di un
+  parametro aggiuntivo per la visita (QVector<QString>): questo va gestito
+  utilizzando un metodo setter per impostare questo parametro nel visitor
+  prima della visita, quindi effettuare la visita chiamando sensor->accept(visitor)
+  senza ulteriore parametro.
+  SensorVisitorMW invece dovrebbe essere separata in due visitor concreti
+  distinti, chiamati per esempio "GetDataVisitor" e "SetDataVisitor". Con
+  l'approccio seguito nel codice attuale, si suggerisce che aggiungere una nuova
+  funzionalità, per esempio "mostare un'icona", debba comportare l'aggiunta di
+  appositi metodi visitShowIcon in SensorVisitorMW, costringendo tutti i visitor
+  concreti ad implementarli, anche se non ne hanno bisogno. Aggiungere dei visitor
+  e delle funzionaità dinamiche in questo modo diventa difficile, ad esempio un visitor
+  che converte un sensore in JSON dovrebbe implementare senza motivo visitEditDataMW,
+  senza contare che i Sensor devono poi esporre nuovi metodi accept* per ogni
+  funzionalità, limitando l'estensibilità.
+  La soluzione corretta consiste nell'avere diversi Visitor concreti, ciascuno
+  specializzato in un compito specifico.
+
+
+Funzionalità
++ Funzionalità di ricerca e filtro
++ Complessivamente molto curato
+
+
+GUI
++ Visualizza i diversi tipi di dato in maniera opportuna
++ Usabile e intuitiva
++ Robusta, gestisce ridimensionamento
++ Complessivamente molto curata
+
+
+Relazione
++ Adeguata
+
+
+Suggerimenti non collegati alla valutazione
+Nessuno.
+borella_mirco.txt
+Visualizzazione di borella_mirco.txt.

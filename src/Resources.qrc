@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/qss">
+        <file>resources/main.qss</file>
+    </qresource>
+    <qresource prefix="/img">
+        <file>resources/checkBoxChecked.png</file>
+        <file>resources/checkBoxUnchecked.png</file>
+        <file>resources/searchIcon.svg</file>
+        <file>resources/ConfigImg.png</file>
+        <file>resources/SensorsImg.png</file>
+        <file>resources/ComboBoxArrow.svg</file>
+    </qresource>
+    <qresource prefix="/fonts">
+        <file>resources/Gilroy-Medium.ttf</file>
+        <file>resources/Gilroy-MediumItalic.ttf</file>
+    </qresource>
+</RCC>

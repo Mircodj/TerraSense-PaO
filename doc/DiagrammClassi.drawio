@@ -1,0 +1,318 @@
+<mxfile host="app.diagrams.net" modified="2024-07-14T15:48:59.749Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Ouv8aUN3ispy5aNoyd0J" version="24.6.5" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="2190" dy="2083" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="AbstractSensor" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-630" y="-340" width="410" height="510" as="geometry">
+            <mxRectangle y="-240" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--1" value="- name : QString" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="26" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--2" value="- group : QString" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="52" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--3" value="- minValue : double   &#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="78" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--5" value="- maxValue : double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="104" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--4" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="130" width="410" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-0" value="+ AbstractSensor(QString, QString, double, double)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="138" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-1" value="+ getName() : QString" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="164" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-2" value="+ getGroup() : QString" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="190" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-3" value="+ getMinValue() : double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="216" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-4" value="+ getMaxValue() : double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="242" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-5" value="+ setName(QString) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="268" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-6" value="+ setGroup(QString) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="294" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-7" value="+ setMinValue(double) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="320" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-8" value="+ setMaxValue(double) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="346" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-9" value="+ ~AbstractSensor()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="372" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-10" value="+ acceptShow(SensorVisitorMW*) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="398" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-11" value="+ acceptEdit(SensorVisitorMW*) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="424" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-12" value="+ acceptEditData(SensorVisitorSL*, QVector&lt;QString&gt;) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="450" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-13" value="+ toJson() : QJsonObject" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="476" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-34" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeColor=default;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yTFXGloObHKx-Hn2s4Vt-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="330.0000000000002" as="sourcePoint" />
+            <mxPoint x="25" y="250" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-14" value="TemperatureSensor&#xa;" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-180" y="320" width="410" height="350" as="geometry">
+            <mxRectangle y="-240" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-15" value="- mountType : QString" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-14" vertex="1">
+          <mxGeometry y="26" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-16" value="- powerType : QString" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-14" vertex="1">
+          <mxGeometry y="52" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-19" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="yTFXGloObHKx-Hn2s4Vt-14" vertex="1">
+          <mxGeometry y="78" width="410" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-20" value="+ TemperatureSensor(QString, QString, double, double, QString, QString)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-14" vertex="1">
+          <mxGeometry y="86" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-21" value="+ getMountType() : QString" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-14" vertex="1">
+          <mxGeometry y="112" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-22" value="+ getPowerType() : QString" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-14" vertex="1">
+          <mxGeometry y="138" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-25" value="+ setMountType(QString) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-14" vertex="1">
+          <mxGeometry y="164" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-26" value="+ setPowerType(QString) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-14" vertex="1">
+          <mxGeometry y="190" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-29" value="+ ~TemperatureSensor()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-14" vertex="1">
+          <mxGeometry y="216" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-30" value="+ acceptShow(SensorVisitorMW*) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-14" vertex="1">
+          <mxGeometry y="242" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-31" value="+ acceptEdit(SensorVisitorMW*) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-14" vertex="1">
+          <mxGeometry y="268" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-32" value="+ acceptEditData(SensorVisitorSL*, QVector&lt;QString&gt;) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-14" vertex="1">
+          <mxGeometry y="294" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-33" value="+ toJson() : QJsonObject" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-14" vertex="1">
+          <mxGeometry y="320" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-35" value="WaterLevelSensor" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-650" y="320" width="410" height="350" as="geometry">
+            <mxRectangle y="-240" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-36" value="- protectionLevel : QString" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-35" vertex="1">
+          <mxGeometry y="26" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-37" value="- measureMethod : QString" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-35" vertex="1">
+          <mxGeometry y="52" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-38" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="yTFXGloObHKx-Hn2s4Vt-35" vertex="1">
+          <mxGeometry y="78" width="410" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-39" value="+ TemperatureSensor(QString, QString, double, double, QString, QString)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-35" vertex="1">
+          <mxGeometry y="86" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-40" value="+ getProtectionLevel() : QString" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-35" vertex="1">
+          <mxGeometry y="112" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-41" value="+ getMeasureMethod() : QString" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-35" vertex="1">
+          <mxGeometry y="138" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-42" value="+ setProtectionLevel(QString) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-35" vertex="1">
+          <mxGeometry y="164" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-43" value="+ setMeasureMethod(QString) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-35" vertex="1">
+          <mxGeometry y="190" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-44" value="+ ~WaterLevelSensor()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-35" vertex="1">
+          <mxGeometry y="216" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-45" value="+ acceptShow(SensorVisitorMW*) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-35" vertex="1">
+          <mxGeometry y="242" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-46" value="+ acceptEdit(SensorVisitorMW*) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-35" vertex="1">
+          <mxGeometry y="268" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-47" value="+ acceptEditData(SensorVisitorSL*, QVector&lt;QString&gt;) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-35" vertex="1">
+          <mxGeometry y="294" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-48" value="+ toJson() : QJsonObject" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-35" vertex="1">
+          <mxGeometry y="320" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-49" value="SoilMoistureSensor" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="290" y="320" width="410" height="350" as="geometry">
+            <mxRectangle y="-240" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-50" value="- sensorMaterial : QString" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-49" vertex="1">
+          <mxGeometry y="26" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-51" value="- depth: QString" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-49" vertex="1">
+          <mxGeometry y="52" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-52" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="yTFXGloObHKx-Hn2s4Vt-49" vertex="1">
+          <mxGeometry y="78" width="410" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-53" value="+ TemperatureSensor(QString, QString, double, double, QString, QString)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-49" vertex="1">
+          <mxGeometry y="86" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-54" value="+ getSensorMaterial() : QString" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-49" vertex="1">
+          <mxGeometry y="112" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-55" value="+ getDepth() : QString" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-49" vertex="1">
+          <mxGeometry y="138" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-56" value="+ setSensorMaterial(QString) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-49" vertex="1">
+          <mxGeometry y="164" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-57" value="+ setDepth(QString) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-49" vertex="1">
+          <mxGeometry y="190" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-58" value="+ ~SoilMoistureSensor()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-49" vertex="1">
+          <mxGeometry y="216" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-59" value="+ acceptShow(SensorVisitorMW*) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-49" vertex="1">
+          <mxGeometry y="242" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-60" value="+ acceptEdit(SensorVisitorMW*) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-49" vertex="1">
+          <mxGeometry y="268" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-61" value="+ acceptEditData(SensorVisitorSL*, QVector&lt;QString&gt;) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-49" vertex="1">
+          <mxGeometry y="294" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-62" value="+ toJson() : QJsonObject" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="yTFXGloObHKx-Hn2s4Vt-49" vertex="1">
+          <mxGeometry y="320" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-63" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="250" as="sourcePoint" />
+            <mxPoint x="490" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-64" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="250" as="sourcePoint" />
+            <mxPoint x="-440" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-440" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yTFXGloObHKx-Hn2s4Vt-65" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;startArrow=classic;startFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-440" y="170" as="sourcePoint" />
+            <mxPoint x="-440" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nezip-VlB16freIIgoKO-0" value="SensorVisitorMV" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-180" y="-260" width="380" height="220" as="geometry">
+            <mxRectangle y="-240" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nezip-VlB16freIIgoKO-4" value=" " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" parent="nezip-VlB16freIIgoKO-0" vertex="1">
+          <mxGeometry y="26" width="380" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nezip-VlB16freIIgoKO-5" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="nezip-VlB16freIIgoKO-0" vertex="1">
+          <mxGeometry y="52" width="380" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="nezip-VlB16freIIgoKO-6" value="+ visitGetDataMW(SoilMoistureSensor*) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="nezip-VlB16freIIgoKO-0" vertex="1">
+          <mxGeometry y="60" width="380" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nezip-VlB16freIIgoKO-7" value="+ visitGetDataMW(TemperatureSensor*) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="nezip-VlB16freIIgoKO-0" vertex="1">
+          <mxGeometry y="86" width="380" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nezip-VlB16freIIgoKO-8" value="+ visitGetDataMW(WaterLevelSensor*) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="nezip-VlB16freIIgoKO-0" vertex="1">
+          <mxGeometry y="112" width="380" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nezip-VlB16freIIgoKO-9" value="+ visitEditDataMW(SoilMoistureSensor*) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="nezip-VlB16freIIgoKO-0" vertex="1">
+          <mxGeometry y="138" width="380" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nezip-VlB16freIIgoKO-10" value="+ visitEditDataMW(TemperatureSensor*) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="nezip-VlB16freIIgoKO-0" vertex="1">
+          <mxGeometry y="164" width="380" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nezip-VlB16freIIgoKO-11" value="+ visitEditDataMW(WaterLevelSensor*) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="nezip-VlB16freIIgoKO-0" vertex="1">
+          <mxGeometry y="190" width="380" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nezip-VlB16freIIgoKO-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nezip-VlB16freIIgoKO-23" target="nezip-VlB16freIIgoKO-0" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nezip-VlB16freIIgoKO-23" value="MainWindow" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-90" y="50" width="200" height="100" as="geometry">
+            <mxRectangle y="-240" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nezip-VlB16freIIgoKO-24" value="...." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" parent="nezip-VlB16freIIgoKO-23" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nezip-VlB16freIIgoKO-25" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="nezip-VlB16freIIgoKO-23" vertex="1">
+          <mxGeometry y="52" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="nezip-VlB16freIIgoKO-31" value="...." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="nezip-VlB16freIIgoKO-23" vertex="1">
+          <mxGeometry y="60" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nezip-VlB16freIIgoKO-33" value="SensorVisitorSL" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="240" y="-260" width="430" height="150" as="geometry">
+            <mxRectangle y="-240" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nezip-VlB16freIIgoKO-34" value=" " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" parent="nezip-VlB16freIIgoKO-33" vertex="1">
+          <mxGeometry y="26" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nezip-VlB16freIIgoKO-35" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="nezip-VlB16freIIgoKO-33" vertex="1">
+          <mxGeometry y="52" width="430" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="nezip-VlB16freIIgoKO-39" value="+ visitEditDataSL(SoilMoistureSensor*, QVector&lt;QString&gt;) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="nezip-VlB16freIIgoKO-33" vertex="1">
+          <mxGeometry y="60" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nezip-VlB16freIIgoKO-40" value="+ visitEditDataSL(TemperatureSensor*, QVector&lt;QString&gt;) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="nezip-VlB16freIIgoKO-33" vertex="1">
+          <mxGeometry y="86" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nezip-VlB16freIIgoKO-41" value="+ visitEditDataSL(WaterLevelSensor*, QVector&lt;QString&gt;) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="nezip-VlB16freIIgoKO-33" vertex="1">
+          <mxGeometry y="112" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nezip-VlB16freIIgoKO-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nezip-VlB16freIIgoKO-43" target="nezip-VlB16freIIgoKO-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nezip-VlB16freIIgoKO-43" value="SensorLogic" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="355" y="-20" width="200" height="100" as="geometry">
+            <mxRectangle y="-240" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nezip-VlB16freIIgoKO-44" value="...." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" parent="nezip-VlB16freIIgoKO-43" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nezip-VlB16freIIgoKO-45" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="nezip-VlB16freIIgoKO-43" vertex="1">
+          <mxGeometry y="52" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="nezip-VlB16freIIgoKO-46" value="...." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontSize=14;" parent="nezip-VlB16freIIgoKO-43" vertex="1">
+          <mxGeometry y="60" width="200" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

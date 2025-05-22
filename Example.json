@@ -1,0 +1,83 @@
+[
+    {
+        "group": "T001",
+        "maxValue": 100,
+        "minValue": -20,
+        "mountType": "Roof Mount",
+        "name": "TempTetto1",
+        "powerType": "Solar",
+        "sensorType": "Temperature"
+    },
+    {
+        "group": "T001",
+        "maxValue": 100,
+        "minValue": -20,
+        "mountType": "Roof Mount",
+        "name": "TempTetto2",
+        "powerType": "AC/DC",
+        "sensorType": "Temperature"
+    },
+    {
+        "group": "T002",
+        "maxValue": 60,
+        "minValue": 10,
+        "mountType": "Wall Mount",
+        "name": "TempInterno1",
+        "powerType": "AC/DC",
+        "sensorType": "Temperature"
+    },
+    {
+        "group": "WL001",
+        "maxValue": 100,
+        "measureMethod": "Ultrasonic",
+        "minValue": 0,
+        "name": "WLBanco1",
+        "protectionLevel": "IPX5",
+        "sensorType": "WaterLevel"
+    },
+    {
+        "group": "WL002",
+        "maxValue": 100,
+        "measureMethod": "Physical",
+        "minValue": 0,
+        "name": "WLBanco2",
+        "protectionLevel": "IP57",
+        "sensorType": "WaterLevel"
+    },
+    {
+        "group": "WL003",
+        "maxValue": 100,
+        "measureMethod": "Physical",
+        "minValue": 0,
+        "name": "WLTubi",
+        "protectionLevel": "IP68",
+        "sensorType": "WaterLevel"
+    },
+    {
+        "group": "WL003",
+        "maxValue": 100,
+        "measureMethod": "Ultrasonic",
+        "minValue": 0,
+        "name": "WLTubi",
+        "protectionLevel": "IP68",
+        "sensorType": "WaterLevel"
+    },
+    {
+        "depth": "20cm",
+        "group": "SM001",
+        "maxValue": 100,
+        "minValue": 20,
+        "name": "SMBanco1",
+        "sensorMaterial": "Copper",
+        "sensorType": "SoilMoisture"
+    },
+    {
+        "depth": "10cm",
+        "group": "SM002",
+        "maxValue": 100,
+        "minValue": 20,
+        "name": "SMBanco2",
+        "sensorMaterial": "Brass",
+        "sensorType": "SoilMoisture"
+    }
+]
