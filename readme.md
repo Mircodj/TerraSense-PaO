@@ -6,7 +6,7 @@
 </div>
 
 <p align="center">
-  <em>Una piattaforma completa per la gestione e simulazione di sensori in serra</em>
+  <em>Una piattaforma per la gestione e simulazione di sensori all'interno di una serra</em>
 </p>
 
 ![Screenshot dell'applicativo](./doc/Screenshot.png)
